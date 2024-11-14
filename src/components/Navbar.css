@@ -1,0 +1,51 @@
+.navbar {
+  background-color: #6A4B93; /* Darker shade to match the overall theme */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-family: 'Montserrat', sans-serif; /* Professional font */
+}
+
+.navbar .logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+
+.navbar .menu {
+  display: flex;
+  gap: 20px;
+}
+
+.navbar .menu a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.navbar .menu a:hover {
+  text-decoration: underline;
+}
+
+.navbar .actions {
+  display: flex;
+  gap: 10px;
+}
+
+.navbar .actions button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: white;
+  color: #6A4B93; /* Button text color to match the navbar background */
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.navbar .actions button:hover {
+  background-color: #8361C5; /* Slightly darker shade for hover effect */
+  color: white;
+}

@@ -1,0 +1,9 @@
+/* Add these styles to ensure full-screen coverage */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #BFA2DB, #8361C5); /* Adjusted for a similar color as the image */
+}
+
+/* Adjust other necessary global styles */
